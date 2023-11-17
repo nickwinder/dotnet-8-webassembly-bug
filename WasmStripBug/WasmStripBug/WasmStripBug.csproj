@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RuntimeIdentifier>browser-wasm</RuntimeIdentifier>
+        <WasmMainJSPath>init.js</WasmMainJSPath>
+        <OutputType>Exe</OutputType>
+        <LangVersion>Latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>GdPictureWasm</RootNamespace>
+        <NoWarn>IL2026,CS1591,CS0419</NoWarn>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <WasmNativeDebugSymbols>true</WasmNativeDebugSymbols>
+        <WasmRuntimeAssetsLocation>./</WasmRuntimeAssetsLocation>
+        <EmccLinkOptimizationFlag>-O3</EmccLinkOptimizationFlag>
+        <EmccCompileOptimizationFlag>-O3</EmccCompileOptimizationFlag>
+    </PropertyGroup>
+</Project>
